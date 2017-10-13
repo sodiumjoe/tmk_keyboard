@@ -11,7 +11,7 @@ enum function_id {
 #define AC_L1       ACTION_LAYER_MOMENTARY(1)
 #define AC_L2       ACTION_LAYER_MOMENTARY(2)
 #define AC_1CTL     ACTION_LAYER_MODS(1, MOD_LCTL)
-#define AC_ESCX     ACTION_FUNCTION_TAP(ESCX)
+#define AC_ESCX     ACTION_FUNCTION(ESCX)
 
 // emulates FC660C default keymap
 #ifdef KEYMAP_SECTION_ENABLE

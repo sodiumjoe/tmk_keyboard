@@ -169,7 +169,14 @@ You can learn a lot about keyboard firmware from these. See [Other Projects](htt
 fc660c flashing
 ===============
 
-First, build:
+install:
+```bash
+brew install dfu-programmer
+brew tap osx-cross/avr
+brew install avr-gcc
+```
+
+build:
 ```bash
 cd ./keyboard/fc660c
 ./update_bin.sh

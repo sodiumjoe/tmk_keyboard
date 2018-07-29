@@ -229,3 +229,20 @@ Coding Style
 Other Keyboard Firmware Projects
 ------------------
 You can learn a lot about keyboard firmware from these. See [Other Projects](https://github.com/tmk/tmk_keyboard/wiki/Other-Projects) other than TMK.
+
+fc660c flashing
+===============
+
+First, build:
+```bash
+cd ./keyboard/fc660c
+./update_bin.sh
+```
+
+Then, flash:
+press hasu button, then:
+```bash
+dfu-programmer atmega32u4 erase --force
+dfu-programmer atmega32u4 flash binary/fc660c_emu.hex
+dfu-programmer atmega32u4 reset
+```

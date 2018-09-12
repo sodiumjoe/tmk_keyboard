@@ -24,7 +24,7 @@ const action_t actionmaps[][UNIMAP_ROWS][UNIMAP_COLS] PROGMEM = {
         TAB, Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,BSLS,     VOLD,
         1CTL,A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,     ENT,
         LSFT,Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLSH,          RSFT,UP,
-        L2 ,LALT,LGUI,          SPC,                     RGUI,RALT,L2,  LEFT,DOWN,RGHT
+        L2, LALT,LGUI,          SPC,                     L2, RALT,L2,  LEFT,DOWN,RGHT
     ),
     [1] = KMAP(
         TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,    TRNS,
